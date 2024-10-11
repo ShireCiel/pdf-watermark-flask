@@ -4,7 +4,7 @@ RUN pip install --upgrade pip
 
 WORKDIR /opt
 
-COPY src .
+COPY src /opt/src
 COPY requirements.txt .
 
 RUN pip install -r requirements.txt
